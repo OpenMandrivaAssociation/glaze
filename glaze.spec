@@ -9,6 +9,7 @@ Group:          Development/Libraries/C and C++
 URL:            https://github.com/stephenberry/glaze
 Source0:        https://github.com/stephenberry/%{name}/archive/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  cmake
+BuildRequires:	make
 
 %package devel
 Summary:        Development files for %{name}
